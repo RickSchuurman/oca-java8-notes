@@ -70,12 +70,17 @@ public class PrimativeTypes {
         // Other formats
 
         // Octal (digits 0-7), which uses the number 0 as a prefix, for example 017
+        int octal = 017;
+        double octal2 = 017;
         System.out.println(017); // prints 15
 
         // Hexadecimal (digits 0-9 and letters A-F), which uses the number 0 followed by x or X as a prefix. For example 0xFF
+        // Can assigned to many types including int and double
         System.out.println(0xFF); // prints 255
 
         // binary (digits 0-1) which uses the number 0 followed by b O B as prefix. For example 0b10
+        int binary = 0b10;
+        double binary2 = 0b10;
         System.out.println(0b10); // prints 2
 
 

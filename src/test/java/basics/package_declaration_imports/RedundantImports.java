@@ -8,6 +8,12 @@ package basics.package_declaration_imports;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+
+// This compiles, importing by classname take precedence over wildcards
+// import java.nio.file.Files;
+// import java.nio.file.*;
+
+
 // Not compile, a wild card only matches class names
 // import java.nio.*;
 
