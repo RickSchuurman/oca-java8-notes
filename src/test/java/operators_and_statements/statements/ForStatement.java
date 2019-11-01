@@ -23,6 +23,7 @@ public class ForStatement {
         fixRedeclaringVariabele();
         commaBetweenNames();
         comparingMultipleElements();
+        doubleAssign();
     }
 
     public static void forLoop() {
@@ -96,6 +97,15 @@ public class ForStatement {
         values[2] = 15;
         for (int i = 1; i < values.length; i++) {
             System.out.println((values[i] - values[i - 1])+ " ");
+        }
+    }
+
+    public static void doubleAssign() {
+        for (int x = 0; x < 10; ) { //
+            x = x++; // assign x to the old value 0  loop will not end
+            System.out.println(x);
+            System.out.println("Hello world");
+
         }
     }
 }

@@ -5,11 +5,11 @@ public class IfThenElse {
     public static void main(String[] args) {
         {
             int hourOfDay = 10;
-            if (hourOfDay < 11) {
+            if (hourOfDay < 11)
                 System.out.println("Good morning");
-            } else {
+            else
                 System.out.println("Good evening");
-            }
+
         }
 
         {
@@ -20,6 +20,13 @@ public class IfThenElse {
                 System.out.println("Good afternoon");
             } else {
                 System.out.println("Good evening");
+            }
+        }
+
+        {
+            boolean b = false;
+            if (b = true){ // assignment not comparisson
+                System.out.println("Hello world");
             }
         }
 

@@ -53,6 +53,12 @@ public class NumericPromotions {
             double sum = x * y / z;
         }
 
+        {
+            byte x = 5;
+            byte y = 5;
+            double z = x + y; //operand x + y will be automatically promoted to int // and java takes larger of the two data types so z can be int, long, double
+        }
+
 
     }
 

@@ -34,6 +34,25 @@ public class WhileStatement {
         } while (false); // the statement block was still executed once and the program outputs a 1
         System.out.println(x);
     }
+
+
+    // output 11
+    {
+        boolean keepGoing = true;
+        int result = 15, i = 10;
+        do {
+            i--;
+            if (i == 8) keepGoing = false;
+            result = -2;
+        } while (keepGoing);
+    }
+
+
+//    public static void doWhileDeclareOutOfScope() {
+//        do {
+//            int x = 0;
+//        } while (x < 10); // x is declared in the body of do While, it is out of scope in the while
+//    }
 }
 
 
