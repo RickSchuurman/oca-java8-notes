@@ -24,9 +24,36 @@ public class SwitchStatement {
 
     public static void main(String[] args) {
 
+        boolean checked = true;
+        int result = 15, i = 10;
+        do { /*from   www  . j a  va 2 s  . c om*/
+            i--;
+            System.out.println();
+            if(i==8)
+                checked = false;
+            result -= 2;
+        } while(checked);
+        System.out.println(result);
+
+
+
+        char k;
+        LOOP: for (k=0;k<5;k++){
+            switch(k++){
+                case'0' :
+                    System.out.println("A");
+                case 1:
+                    System.out.println("B");
+                case 2:
+                    System.out.println("C");
+            }
+        }
+
+
+
+
 
         // switch statement may contain 0 or more case brances
-
         int dayOfTheWeek = 0;
         switch (dayOfTheWeek) {
             default: // optional, may be appear anywhere in the switch statement
@@ -45,7 +72,7 @@ public class SwitchStatement {
         // Jumps direct to default and execute all of the proceeding case statements in order until it finds a break statement
         int dayOfTheWeek2 = 5;
         switch (dayOfTheWeek2) {
-            case 0:
+            case 0 :
                 System.out.println("Sunday");
                 break;
             default:
@@ -82,8 +109,8 @@ public class SwitchStatement {
 //                break;
         }
         return id;
-    }
 
+    }
 
 }
 

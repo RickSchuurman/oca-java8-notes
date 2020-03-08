@@ -1,4 +1,4 @@
-package core_java_apis;
+package core_java_apis.arrayList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,7 +41,7 @@ public class ArrayListExample {
         }
 
         {
-            // Type be specified
+            // Type be specified can only be reference type NOT primitive
             ArrayList<String> list2 = new ArrayList<>();
             list2.add("Hawk");
 //            list2.add(Boolean.TRUE); // NOT COMPILE, it is not a String
@@ -131,6 +131,12 @@ public class ArrayListExample {
             two.add(0, "b"); // [b, a]
             System.out.println(one.equals(two)); // prints false
         }
+
+        List list = new ArrayList();
+        list.add("val1"); //1
+        list.add(1, "val3"); //3
+        list.add(2, "val2"); //2
+        System.out.println(list);
     }
 }
 

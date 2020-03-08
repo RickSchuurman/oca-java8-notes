@@ -3,7 +3,7 @@
 * Three types of operators: unary, binary, ternary, depending to how many operands they can be applied (1, 2, or 3)
 * 1 + 2 = 3 // 1 and 3 are operands and + is a operator
 *
-* Order of operator precedence (most weird ones are not required for this exam):
+* Order of operator precedence (most weird ones are not required for this Exam):
 
 | Operator                           | Symbols and examples
 | Post-unary operators               | expression++, expression--

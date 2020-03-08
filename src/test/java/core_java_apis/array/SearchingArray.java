@@ -1,4 +1,4 @@
-package core_java_apis;
+package core_java_apis.array;
 
 import java.util.Arrays;
 

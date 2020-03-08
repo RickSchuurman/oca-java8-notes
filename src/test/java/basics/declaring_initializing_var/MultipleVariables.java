@@ -6,7 +6,6 @@ public class MultipleVariables {
         String s1, s2; // two variables declared
         String s3 = "yes", s4 = "no"; // two variables declared and initialized
 
-
         int i1, i2, i3 = 1; // three variables declared and 1 initialized
 
 
@@ -17,5 +16,6 @@ public class MultipleVariables {
 //      double d1, double d2; // You should share the declaration and not repeat
 //      int i6; int i7; // Each one is a separate statement (;)
 //      int i8; i9; // Two statements and one is not declared
+
     }
 }

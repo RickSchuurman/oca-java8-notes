@@ -1,7 +1,7 @@
 /*
  * Compound operators helps with cast a value
  *
- * Only += and -+ for the exam
+ * Only += and -+ for the Exam
  *
  */
 

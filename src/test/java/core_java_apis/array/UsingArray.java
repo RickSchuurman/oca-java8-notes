@@ -1,4 +1,4 @@
-package core_java_apis;
+package core_java_apis.array;
 
 import java.util.Arrays;
 
@@ -9,6 +9,7 @@ public class UsingArray {
             String[] mammels = {"Monkey", "Chimp", "Donkey"};
             System.out.println(mammels.length); // prints 3
             System.out.println(mammels[0]); // prints Monkey
+
         }
 
         {

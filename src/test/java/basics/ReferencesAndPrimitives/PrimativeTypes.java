@@ -81,7 +81,7 @@ public class PrimativeTypes {
         // binary (digits 0-1) which uses the number 0 followed by b O B as prefix. For example 0b10
         int binary = 0b10;
         double binary2 = 0b10;
-        System.out.println(0b10); // prints 2
+        System.out.println(0b10); // prints
 
 
         // Adding underscores to numbers to make them easier to read

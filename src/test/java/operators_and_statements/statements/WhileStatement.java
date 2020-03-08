@@ -10,6 +10,7 @@ public class WhileStatement {
     public static void main(String[] args) {
         eatCheese(3);
         doWhile();
+
     }
 
     static int roomInBelly = 5;

@@ -23,20 +23,21 @@ public class ForStatement {
         fixRedeclaringVariabele();
         commaBetweenNames();
         comparingMultipleElements();
-        doubleAssign();
+//        doubleAssign();
+        test();
     }
 
     public static void forLoop() {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 3; i++) {
             System.out.println(i + " ");
         }
     }
 
-    public static void infiniteLoop() {
-        for (; ; ) { // components of the for loop are optional semicolons are required. So for(;){} will not compile
-            System.out.println("Hello World");
-        }
-    }
+//    public static void infiniteLoop() {
+//        for (; ; ) { // components of the for loop are optional semicolons are required. So for(;){} will not compile
+//            System.out.println("Hello World");
+//        }
+//    }
 
     public static void multipleTermsForLoop() {
         int x = 0; // declare variable for loops begins and use it after it completes
@@ -100,12 +101,23 @@ public class ForStatement {
         }
     }
 
-    public static void doubleAssign() {
-        for (int x = 0; x < 10; ) { //
-            x = x++; // assign x to the old value 0  loop will not end
-            System.out.println(x);
-            System.out.println("Hello world");
+//    public static void doubleAssign() {
+//        for (int x = 0; x < 10; ) { //
+//            x = x++; // assign x to the old value 0  loop will not end
+//            System.out.println(x);
+//            System.out.println("Hello world");
+//
+//        }
+//    }
 
+    public static void test(){
+        int i;
+        int j;
+        for(i = 0, j = 0; j < i; ++j, i++)
+        {
+            System.out.println("test a" + i + j);
         }
+        System.out.println("test b" + i + j);
     }
+
 }
